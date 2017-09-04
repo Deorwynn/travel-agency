@@ -141,6 +141,15 @@ p {
     color: #058eb5;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
 
 /*======================================================
                         ANIMATE
@@ -621,5 +630,60 @@ form .form-control {
 }
 
 #footer-menu a:hover {
+    color: #058eb5;
+}
+
+
+/*======================================================
+                        NAVIGATION
+========================================================*/
+
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.limosa-top-nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 7px 0;
+}
+
+.limosa-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    background: none;
+    color: #058eb5;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0, 1);
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.limosa-top-nav ul.navbar-nav > li.active > a {
     color: #058eb5;
 }

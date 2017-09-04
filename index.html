@@ -36,10 +36,60 @@
 
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    
+    <header>
+        
+        <nav class="navbar navbar-fixed-top" role="navigation">
+            
+            <div class="container-fluid">
+                
+                <div class="limosa-nav-wrapper">
+                    
+                    <div class="navbar-header">
+                       
+                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#limosa-menu">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                       </button>
+                       
+                        <a class="navbar-brand" href="#home">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    
+                    <div id="limosa-menu" class="collapse navbar-collapse">
+                        
+                        <ul class="nav navbar-nav">
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#services">Services</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href=#work>Work</a></li>
+                            <li><a class="smooth-scroll" href="#team">Team</a></li>
+                            <li><a class="smooth-scroll" href="#testimonials">Testimonials</a></li>
+                            <li><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                            <li><a class="smooth-scroll" href="#stats">Stats</a></li>
+                            <li><a class="smooth-scroll" href="#clients">Clients</a></li>
+                            <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </nav>
+        
+    </header>
 
     <!-- Home -->
 
@@ -59,7 +109,7 @@
 
                     <div id="home-btn" class="animated zoomIn">
 
-                        <a class="btn btn-lg btn-general btn-sand" href="#work" role="button" title="View Our Work">Book a Trip</a>
+                        <a class="smooth-scroll btn btn-lg btn-general btn-sand" href="#work" role="button" title="View Our Work">Book a Trip</a>
 
                     </div>
 
@@ -89,7 +139,7 @@
 
                 <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -108,7 +158,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -127,7 +177,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -148,7 +198,7 @@
                     </div>
 
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -167,7 +217,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -176,7 +226,7 @@
                             </div>
 
                             <div class="service-item-title">
-                                <h3>Local Transportation</h3>
+                                <h3>Transportation</h3>
                             </div>
 
                             <div class="service-item-description">
@@ -186,7 +236,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -207,7 +257,7 @@
                     </div>
 
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -226,7 +276,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -245,7 +295,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6">
 
                         <div class="service-item">
 
@@ -304,7 +354,7 @@
                                 </div>
 
                                 <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                    <a class="btn btn-lg btn-general btn-blue" href="#work" role="button"> Our Work </a>
+                                    <a class="smooth-scroll btn btn-lg btn-general btn-blue" href="#work" role="button"> Book a Trip </a>
                                 </div>
 
                             </div>
@@ -338,56 +388,56 @@
 
                 <div class="row no-gutters wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/5.jpg" title="Work description Goes Here">
                                 <img src="img/work/5.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/6.jpg" title="Work description Goes Here">
                                 <img src="img/work/6.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/3.jpg" title="Work description Goes Here">
                                 <img src="img/work/3.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/7.jpg" title="Work description Goes Here">
                                 <img src="img/work/7.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/4.jpg" title="Work description Goes Here">
                                 <img src="img/work/4.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/1.jpg" title="Work description Goes Here">
                                 <img src="img/work/1.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/2.jpg" title="Work description Goes Here">
                                 <img src="img/work/2.jpg" class="img-responsive" alt="work">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4">
                         <div class="img-wrapper">
                             <a href="img/work/8.jpg" title="Work description Goes Here">
                                 <img src="img/work/8.jpg" class="img-responsive" alt="work">
@@ -692,28 +742,28 @@
 
                 <div class="container">
                     <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="stats-item">
                                 <i class="fa fa-cloud-download fa-5x"></i>
                                 <h2><span class="counter">1590</span><span>+</span></h2>
                                 <p>Downloads</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="stats-item">
                                 <i class="fa fa-star fa-5x"></i>
                                 <h2><span class="counter">3500</span><span>+</span></h2>
                                 <p>Awards</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="stats-item">
                                 <i class="fa fa-thumbs-up fa-5x"></i>
                                 <h2><span class="counter">1199</span><span>+</span></h2>
                                 <p>Likes</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="stats-item">
                                 <i class="fa fa-cloud-download fa-5x"></i>
                                 <h2><span class="counter">2200</span><span>+</span></h2>
@@ -856,22 +906,26 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 hidden-sm hidden-xs">
                         <div id="footer-menu">
                             <ul>
-                                <li><a href="#home">Home</a>/</li>
+                                <li><a href="#home" class="smooth-scroll">Home</a>/</li>
                                 <li><a href="#services">Services</a>/</li>
-                                <li><a href="#work">Work</a>/</li>
-                                <li><a href="#team">Team</a>/</li>
-                                <li><a href="#testimonials">Testimonials</a>/</li>
-                                <li><a href="#pricing">Pricing</a>/</li>
-                                <li><a href="#stats">Stats</a></li>
+                                <li><a href="#work" class="smooth-scroll">Work</a>/</li>
+                                <li><a href="#team" class="smooth-scroll">Team</a>/</li>
+                                <li><a href="#testimonials" class="smooth-scroll">Testimonials</a>/</li>
+                                <li><a href="#pricing" class="smooth-scroll">Pricing</a>/</li>
+                                <li><a href="#stats" class="smooth-scroll">Stats</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
 
     </footer>
 
@@ -893,7 +947,10 @@
     <!-- counter -->
     <script src="js/counterup/jquery.waypoints.min.js"></script>
     <script src="js/counterup/jquery.counterup.min.js"></script>
-
+    
+    <!-- easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+    
     <!-- custom JS -->
     <script src="js/custom.js"></script>
 
