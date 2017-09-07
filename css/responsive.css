@@ -5,7 +5,7 @@
 
 /* Large Devices (Desktop & Laptopts) */
 
-@media (min-width: 1200) {
+@media (min-width: 1200px) {
     /* OK */
 }
 
@@ -153,7 +153,7 @@
     }
     /* About */
     #about-content-box {
-        margin-top: 40px;
+        padding-top: 40px;
     }
     /* Testimonials */
     .testimonial img {
@@ -170,5 +170,9 @@
     }
     .testimonial blockquote p {
         font-size: 14px;
+    }
+    #trips {
+        margin-top: 100px;
+        padding-bottom: 0px;
     }
 }

@@ -10,11 +10,11 @@ $(function () {
 
 
 /*======================================================
-                        WORK
+                        TRIPS
 ========================================================*/
 
 $(function () {
-    $('#work').magnificPopup({
+    $('#trips').magnificPopup({
         delegate: "a",
         type: 'image',
         gallery: {
